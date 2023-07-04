@@ -7,6 +7,7 @@ use hpm_hal as hal;
 use hpm_ral as ral;
 
 use embedded_hal::blocking::delay::DelayMs;
+
 use hal::gpio::{Gpio, PinState};
 use hpm_rt::entry;
 
